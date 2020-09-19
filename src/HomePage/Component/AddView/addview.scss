@@ -1,0 +1,74 @@
+.addView-content {
+  padding-top: 60px;
+  background: #f9f9f9;
+  padding-bottom: 100px;
+  border-radius: 20px;
+
+  .title {
+    text-align: center;
+    padding-bottom: 60px;
+
+    h2 {
+      color: #6f717b;
+      margin-bottom: 5px;
+    }
+
+    p {
+      color: #6f717b;
+      margin-top: 5px;
+    }
+  }
+
+  .form {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+    form {
+      background: white;
+      padding-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .form-group {
+      width: 50%;
+      float: left;
+      position: relative;
+      margin-bottom: 40px;
+      text-align: center;
+
+      input {
+        height: 30px;
+        width: 70%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding-left: 40px;
+
+        &:focus{
+          outline: none;
+        }
+      }
+
+      svg {
+        color: #858f98;
+        position: absolute;
+        top: 6px;
+        left: 12%;
+      }
+      &.button-view {
+        text-align: center;
+        width: 100%;
+
+        button {
+          padding: 15px 50px;
+          border: none;
+          background: #68a554;
+          color: #eceaeb;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

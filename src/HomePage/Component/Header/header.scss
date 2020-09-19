@@ -1,0 +1,48 @@
+.header {
+  width: 100%;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  .search-bar {
+    width: 60%;
+    position: relative;
+
+    input {
+      height: 40px;
+      width: 400px;
+      padding-left: 20px;
+      border: none;
+    }
+
+    button {
+      background-color: #68a554;
+      border: none;
+      position: absolute;
+      top: 7px;
+      padding: 7px;
+      left: 384px;
+      color: white;
+    }
+  }
+
+  .left-side {
+    float: right;
+    width: 10%;
+
+    .notification {
+      padding-top: 10px;
+      color: white;
+      width: 30%;
+      float: left;
+    }
+    .profile{
+      padding-top: 10px;
+      color: white;
+      svg{
+        padding-left: 6px;
+      }
+    }
+  }
+}

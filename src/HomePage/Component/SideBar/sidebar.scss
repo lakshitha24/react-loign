@@ -1,0 +1,38 @@
+.side-bar {
+  background-color: #eceaeb;
+  width: 240px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 72px;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 80px;
+
+  ul {
+    list-style: none;
+
+    li {
+      margin: 10px 0 20px 10px;
+      padding: 10px 10px 10px 20px;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      color: #4a484b;
+      cursor: pointer;
+
+      &.active {
+        background: #4a484b;
+        color: white;
+
+        svg {
+          color: white;
+        }
+      }
+
+      svg {
+        margin-right: 10px;
+        color: #4a484b;
+      }
+    }
+  }
+}

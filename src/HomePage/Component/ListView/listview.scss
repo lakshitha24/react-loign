@@ -1,0 +1,68 @@
+.listview-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #fbfcfc;
+
+  ul {
+    list-style: none;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+
+    .department-user-list {
+      margin-right: 20px;
+
+    }
+  }
+
+  .department-name {
+    padding-bottom: 20px;
+    font-weight: 600;
+    color: #2a468b;
+  }
+
+  .user {
+    max-width: 245px;
+    border: 1px solid #eceaeb;
+
+
+    .details {
+      background: #eceaeb;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 5px;
+      position: relative;
+
+      .name {
+        .first-name {
+          width: 100%;
+          display: block;
+          font-size: 15px;
+        }
+
+        .lastname {
+          width: 100%;
+          display: block;
+          font-weight: 600;
+        }
+      }
+
+      .action {
+        width: 10%;
+        margin-top: 6px;
+        border: 1px solid black;
+        padding: 5px 0px 3px 7px;
+        background: white;
+        cursor: pointer;
+      }
+    }
+
+    .image-view {
+      padding: 10px;
+    }
+  }
+}
