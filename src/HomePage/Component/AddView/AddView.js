@@ -27,6 +27,7 @@ function AddView() {
         setSubmitted(true);
         if (dUser.firstName && dUser.lastName && dUser.email && dUser.depName && dUser.userRole) {
             dispatch(dUserActions.add(dUser));
+            window.location.reload(false);
         }
     }
 
